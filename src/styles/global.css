@@ -4,3 +4,6 @@
 .video video {
   object-fit: cover;
 }
+* {
+  color: white;
+}

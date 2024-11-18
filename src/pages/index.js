@@ -18,20 +18,20 @@ const IndexPage = () => {
           muted={true}
           video={
             ar > 1
-              ? `https://cdn.mustbefamily.com/main.mp4`
-              : `https://cdn.mustbefamily.com/main_m.mp4`
+              ? `https://cdn.mustbefamily.com/zemlyki/desktop.mp4`
+              : `https://cdn.mustbefamily.com/zemlyki/mobile.mp4`
           }
           poster={
             ar > 1
-              ? `https://cdn.mustbefamily.com/main.jpg`
-              : `https://cdn.mustbefamily.com/main_m.jpg`
+              ? `https://cdn.mustbefamily.com/zemlyki/desktop.jpg`
+              : `https://cdn.mustbefamily.com/zemlyki/mobile.jpg`
           }
           className={`video`}
-          alt={`Must Be Family шоурил`}
+          alt={`Земляки`}
         />
       </div>
       <div
-        className={`absolute top-0 left-0 h-screen w-full bg-[#00000080] flex justify-center items-center`}
+        className={`fixed top-0 left-0 h-screen w-full bg-[#00000080] flex justify-center items-center`}
       >
         <div>
           <DynamicHeader />

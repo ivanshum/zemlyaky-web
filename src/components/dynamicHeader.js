@@ -37,7 +37,7 @@ const DynamicHeader = () => {
   return (
     <h1
       ref={container}
-      className={`py-[10px] font-black text-2xl text-center text-white lg:text-5xl uppercase`}
+      className={`p-4 font-black text-4xl text-center lg:text-5xl uppercase`}
     >
       {texts[0]}
     </h1>
