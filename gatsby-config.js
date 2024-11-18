@@ -9,7 +9,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Zemliaky`,
+    title: `Земляки`,
     description: `Решаем земельные вопросы, Подготавливаем схемы КПТ, Оцениваем землю перед покупкой, Помогаем получить землю от государства, Консультируем по земельным вопросам, Решаем земельные вопросы`,
     author: `Ivan Shumilov`,
     siteUrl: `https://zemliaky.ru/`,

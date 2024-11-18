@@ -8,13 +8,13 @@ import { IconContext } from "react-icons"
 const Footer = () => (
   <div className="z-[110] bottom-10 fixed p-3 w-full flex items-center justify-center gap-4">
     <IconContext.Provider value={{ size: "3em" }}>
-      <a href="tel:+79957737455">
+      {/* <a href="tel:+79957737455">
         <FaPhone />
-      </a>
+      </a> */}
       <a rel="noreferrer" target="_blank" href="https://t.me/zemliaky">
         <FaTelegram />
       </a>
-      {/*       <a target="_blank" href="">
+      {/* <a target="_blank" href="">
         <FaWhatsapp />
       </a> */}
       <a
