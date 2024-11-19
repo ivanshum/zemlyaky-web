@@ -5,5 +5,27 @@
   object-fit: cover;
 }
 * {
+  font-family: "Commissioner Variable", Arial, Helvetica, sans-serif;
   color: white;
+}
+.fontalt {
+  font-family: "Montserrat Variable", Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: "Commissioner Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+  src: url(@fontsource-variable/commissioner/files/commissioner-cyrillic-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+  font-family: "Montserrat Variable";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(@fontsource-variable/montserrat/files/montserrat-cyrillic-wght-normal.woff2)
+    format("woff2-variations");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
 }
